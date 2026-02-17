@@ -1,0 +1,37 @@
+# .dockerignore
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git
+.git
+.gitignore
+
+# Documentación
+README.md
+*.md
+
+# Jupyter
+*.ipynb
+.ipynb_checkpoints
+
+# Datos de entrenamiento (si son grandes)
+data/
+*.csv
+
+# Tests
+tests/
+test_*.py
