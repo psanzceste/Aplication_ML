@@ -90,10 +90,11 @@ venv.bak/
 .DS_Store
 
 # Modelos y archivos de datos
-*.pkl
-*.h5
-*.model
-*.joblib
+*/*.pkl
+# *.pkl
+# *.h5
+# *.model
+# *.joblib
 
 # Archivos de Office
 *.pptx
