@@ -1,15 +1,14 @@
 # app.py - Ejemplo de API con Flask
 
 from flask import Flask, request, jsonify
-import pickle
+import joblib
 import numpy as np
 import os
 
 app = Flask(__name__)
 
 # Cargar el modelo
-with open('model.pkl', 'rb') as f:
-    model = pickle.load(f)
+model = joblib.load('model.pkl')
 
 # Opcional: Cargar scaler u otros preprocesadores
 # with open('scaler.pkl', 'rb') as f:

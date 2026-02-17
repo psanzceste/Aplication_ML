@@ -29,5 +29,5 @@ model = LogisticRegression()
 model.fit(X, y)
 
 # Guardar modelo para la API
-joblib.dump(model, "flight_delay_model.pkl")
-print("Modelo guardado en flight_delay_model.pkl")
+joblib.dump(model, "model.pkl")
+print("Modelo guardado en model.pkl")
